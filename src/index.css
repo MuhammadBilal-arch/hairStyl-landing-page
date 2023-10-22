@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+}
+
+.Unbounded-Regular {
+    font-family: Unbounded-Regular, Arial, serif;
+  }
+  
+  @font-face {
+    font-family: 'Unbounded-Regular';
+    src: local('Unbounded-Regular'),
+        url('./assets/fonts/Lato/Unbounded-Regular.ttf') format('truetype');
+  }
+
+  .page-padding {
+    @apply px-5 sm:px-10 ;
+  }
+
+  .responsive-flex {
+    @apply flex flex-col md:flex-row items-center;
+  }
+
+  .border-bottom {
+    @apply border-b-2 border-opacity-60 border-black-primary;
+  }
