@@ -2,8 +2,8 @@ import { ASSETS } from "../assets/path";
 
 export const Appointment = () => {
   return (
-    <div id="services" className="Unbounded-Regular">
-      <div className="text-center py-10 space-y-2 px-5 md:px-0">
+    <div id="services" className="Unbounded-Regular py-10 md:py-14">
+      <div className="text-center  space-y-2 px-5 md:px-0">
         <h1 className="font-semibold text-xl md:text-2xl">
           Services at Hairstyl
         </h1>
@@ -24,7 +24,7 @@ export const Appointment = () => {
         </div>
 
       </div>
-      <div className="py-14 responsive-flex page-padding   md:space-x-10 ">
+      <div className="responsive-flex page-padding   md:space-x-10 ">
         <div className="space-y-6 md:w-1/2">
           <h1 className="font-semibold text-xl md:text-2xl">
             Discover and book an appointment
