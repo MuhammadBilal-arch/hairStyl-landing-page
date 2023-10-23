@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <div>
       <div className="Unbounded-Regular py-5">
-        <div className="bg-black-primary page-padding flex items-center justify-between text-white py-4">
+        <div className="bg-black-primary page-padding space-y-4 md:space-y-0 flex flex-col md:flex-row items-center justify-between text-white py-4">
           <div>Get in touch with ous on social plateforms</div>
           <div className="flex space-x-4 items-center">
             <BiSolidEnvelope className="text-xl" />
