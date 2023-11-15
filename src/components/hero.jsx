@@ -6,7 +6,7 @@ export const Hero = () => {
     <div
     id="home"
     className="Unbounded-Regular max-w-[1440px] w-full bg-yellow-light py-24 pb-10 flex-col-reverse flex md:flex-row page-padding items-center  space-x-0 md:space-x-10 xl:space-x-20 border-bottom">
-      <div className="space-y-4 md:space-y-6 w-full md:w-1/2">
+      <div className="space-y-4 md:space-y-6 w-full md:w-5/12">
         <h1 className="font-semibold text-xl md:text-4xl">
           Discover the Best Local Salons for Your Ultimate Beauty Experience.
         </h1>
@@ -17,7 +17,7 @@ export const Hero = () => {
         </p>
         <Button background='bg-yellow-primary' text="Download App" onHandleClick="" />
       </div>
-      <div className="w-full md:w-1/2 pb-8 md:pb-0">
+      <div className="w-full md:w-7/12 pb-8 md:pb-0">
         <img src={ASSETS.HERO} alt="" />
       </div>
     </div>
