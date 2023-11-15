@@ -2,7 +2,7 @@ import { ASSETS } from "../assets/path";
 
 export const About = () => {
   return (
-    <div id="about" className="bg-white py-10  responsive-flex page-padding  space-y-8 md:space-y-0 md:space-x-10 border-bottom">
+    <div id="about" className="bg-white max-w-[1440px] w-full py-10 Unbounded-Regular  responsive-flex page-padding  space-y-8 md:space-y-0 md:space-x-10 border-bottom">
       <div className="md:w-1/2">
         <img src={ASSETS.ABOUT} alt="" />
       </div>

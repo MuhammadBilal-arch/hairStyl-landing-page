@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <div
     id="home"
-    className="Unbounded-Regular bg-yellow-light py-24 pb-10 flex-col-reverse flex md:flex-row page-padding items-center  space-x-0 md:space-x-10 xl:space-x-20 border-bottom">
+    className="Unbounded-Regular max-w-[1440px] w-full bg-yellow-light py-24 pb-10 flex-col-reverse flex md:flex-row page-padding items-center  space-x-0 md:space-x-10 xl:space-x-20 border-bottom">
       <div className="space-y-4 md:space-y-6 w-full md:w-1/2">
         <h1 className="font-semibold text-xl md:text-4xl">
           Discover the Best Local Salons for Your Ultimate Beauty Experience.

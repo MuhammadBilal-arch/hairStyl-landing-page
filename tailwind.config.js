@@ -44,16 +44,32 @@ export default {
       },
     },
     extend: {
+      // fontSize: {
+      //   "title-xxl": ["44px", "55px"],
+      //   "title-xl": ["36px", "45px"],
+      //   "title-xl2": ["33px", "45px"],
+      //   "title-lg": ["28px", "35px"],
+      //   "title-md": ["24px", "30px"],
+      //   "title-md2": ["26px", "30px"],
+      //   "title-sm": ["20px", "26px"],
+      //   "title-xsm": ["18px", "24px"],
+      // },
       fontSize: {
-        "title-xxl": ["44px", "55px"],
-        "title-xl": ["36px", "45px"],
-        "title-xl2": ["33px", "45px"],
-        "title-lg": ["28px", "35px"],
-        "title-md": ["24px", "30px"],
-        "title-md2": ["26px", "30px"],
-        "title-sm": ["20px", "26px"],
-        "title-xsm": ["18px", "24px"],
-      },
+        xs: ['0.75rem', { lineHeight: '1rem' }],
+        sm: ['0.875rem', { lineHeight: '1.25rem' }], //14px
+        normal: ['0.9375rem', { lineHeight: '1.5rem' }], //15px
+        base: ['1rem', { lineHeight: '1.5rem' }], //16px
+        lg: ['1.125rem', { lineHeight: '1.75rem' }], //18px
+        xl: ['1.25rem', { lineHeight: '1.75rem' }],
+        '2xl': ['1.5rem', { lineHeight: '2rem' }],
+        '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
+        '4xl': ['2.25rem', { lineHeight: '3rem' }],
+        '5xl': ['3rem', { lineHeight: '1' }],
+        '6xl': ['3.75rem', { lineHeight: '1' }],
+        '7xl': ['4.5rem', { lineHeight: '1' }],
+        '8xl': ['6rem', { lineHeight: '1' }],
+        '9xl': ['8rem', { lineHeight: '1' }],
+    },
       spacing: {
         4.5: "1.125rem",
         5.5: "1.375rem",

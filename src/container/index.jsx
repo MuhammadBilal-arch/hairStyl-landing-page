@@ -7,12 +7,13 @@ import { Footer } from "../components/footer";
 
 export const LandingPage = () => {
   return (
-    <Fragment>
-      <Navigation />
-      <Hero/>
-      <About/>
-      <Appointment/>
-      <Footer/>
-    </Fragment>
+ 
+      <div className="flex flex-col items-center justify-center relative">
+        <Navigation />
+        <Hero />
+        <About />
+        <Appointment />
+        <Footer />
+      </div> 
   );
 };

@@ -6,9 +6,8 @@ import {
 } from "react-icons/fa";
 import { BiSolidEnvelope } from "react-icons/bi";
 export const Footer = () => {
-  return (
-    <div>
-      <div className="Unbounded-Regular py-5">
+  return ( 
+      <div className="Unbounded-Regular py-5 max-w-[1440px] w-full">
         <div className="bg-black-primary page-padding space-y-4 md:space-y-0 flex flex-col md:flex-row items-center justify-between text-white py-4">
           <div>Get in touch with ous on social plateforms</div>
           <div className="flex space-x-4 items-center">
@@ -50,7 +49,6 @@ export const Footer = () => {
             We've made it effortless to discover and book nearby salons.”
           </div>
         </div>
-      </div>
-    </div>
+      </div> 
   );
 };
